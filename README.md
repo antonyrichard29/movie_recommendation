@@ -29,3 +29,4 @@ This is a beginner-friendly **Content-Based Movie Recommendation System** built 
    Lets users select a movie and view 5 similar movie recommendations with their overviews.
 
 ---
+The dataset used for training and testing the sentiment analysis model is included in this repository.
