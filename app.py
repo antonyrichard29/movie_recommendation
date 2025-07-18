@@ -4,7 +4,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 
 # load dataset
-movies=pd.read_csv("C:\\Users\\Acer\\Downloads\\tmdb_5000_movies.csv")
+# Replace 'your_path_here.csv' with the correct path to your dataset
+movies=pd.read_csv("your_path_here")
 movies = movies[['title', 'genres', 'keywords', 'overview']]
 movies.dropna(inplace=True)
 
